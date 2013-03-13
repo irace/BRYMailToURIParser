@@ -26,22 +26,22 @@
 }
 
 - (void)testToRecipient {
-    STAssertEqualObjects(self.parser.toRecipients[0], @"bryan@irace.me",
+    STAssertEqualObjects(self.parser.toRecipients[0], @"foo@bar.com",
                          @"'To' recipient doesn't match");
 }
 
 - (void)testSecondaryToRecipient {
-    STAssertEqualObjects(self.parser.toRecipients[1], @"bryan.irace@gmail.com",
+    STAssertEqualObjects(self.parser.toRecipients[1], @"foo2@bar.com",
                          @"Secondary 'To' recipient doesn't match");
 }
 
 - (void)testCCRecipient {
-    STAssertEqualObjects(self.parser.ccRecipients[0], @"bryan@tumblr.com",
+    STAssertEqualObjects(self.parser.ccRecipients[0], @"foo3@bar.com",
                          @"'CC' recipient doesn't match");
 }
 
 - (void)testBCCRecipient {
-    STAssertEqualObjects(self.parser.bccRecipients[0], @"bryan.irace+bcc@gmail.com",
+    STAssertEqualObjects(self.parser.bccRecipients[0], @"foo4@bar.com",
                          @"'BCC' recipient doesn't match");
 }
 
