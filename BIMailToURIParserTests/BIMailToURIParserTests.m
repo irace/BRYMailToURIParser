@@ -22,7 +22,8 @@
     NSString *defaultString = @"mailto:foo@bar.com,foo2@bar.com?cc=foo3@bar.com&bcc=foo4@bar.com&"
             "subject=This%20is%20the%20subject&body=This%20is%20the%20body";
     
-    self.parser = [[BIMailToURIParser alloc] initWithURL:[NSURL URLWithString:defaultString]];
+    self.parser = [[BIMailToURIParser alloc] initWithURL:
+                   [NSURL URLWithString:defaultString]];
 }
 
 - (void)testToRecipient {
