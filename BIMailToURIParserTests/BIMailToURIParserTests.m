@@ -20,7 +20,7 @@
 
 - (void)setUp {
     NSString *defaultString = @"mailto:foo@bar.com,foo2@bar.com?cc=foo3@bar.com&bcc=foo4@bar.com&"
-            "subject=This%20is%20the%20subject&body=This%20is%20the%20body";
+    "subject=This%20is%20the%20subject&body=This%20is%20the%20body";
     
     self.parser = [[BIMailToURIParser alloc] initWithURL:
                    [NSURL URLWithString:defaultString]];
@@ -54,6 +54,11 @@
 - (void)testBody {
     STAssertEqualObjects(self.parser.body, @"This is the body",
                          @"Body doesn't match");
+}
+
+- (void)testIsNotMailToURL {
+    STAssertFalse([BIMailToURIParser isMailToURL:[NSURL URLWithString:@"mailto"]],
+                  @"Empty `mailto` URL should not be valid");
 }
 
 - (void)testIsMailToURL {
