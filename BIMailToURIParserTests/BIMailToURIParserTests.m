@@ -71,4 +71,14 @@
                    @"URL with empty query string should not be nil");
 }
 
+- (void)testDoesntCrashWithNilURL {
+    STAssertNotNil([[BIMailToURIParser alloc] initWithURL:nil], @"Nil URL should not crash");
+}
+
+- (void)testNilIsNotMailToLink {
+    // For Chris Haseman since he loves that you can do `[[nil scheme] isEqualToString@"mailto"]` without nil checks
+    
+    STAssertFalse([BIMailToURIParser isMailToURL:nil], @"Nil URL is not a `mailto` link");
+}
+
 @end
