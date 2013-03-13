@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		937E155E16F0F24C00105840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E155D16F0F24C00105840 /* Foundation.framework */; };
+		937E156316F0F24C00105840 /* BIMailToURIParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 937E156216F0F24C00105840 /* BIMailToURIParser.h */; };
+		937E156516F0F24C00105840 /* BIMailToURIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E156416F0F24C00105840 /* BIMailToURIParser.m */; };
+		937E156D16F0F24C00105840 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E156C16F0F24C00105840 /* SenTestingKit.framework */; };
+		937E156F16F0F24C00105840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E156E16F0F24C00105840 /* UIKit.framework */; };
+		937E157016F0F24C00105840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E155D16F0F24C00105840 /* Foundation.framework */; };
+		937E157316F0F24C00105840 /* libBIMailToURIParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E155A16F0F24C00105840 /* libBIMailToURIParser.a */; };
+		937E157916F0F24C00105840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 937E157716F0F24C00105840 /* InfoPlist.strings */; };
+		937E157C16F0F24C00105840 /* BIMailToURIParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E157B16F0F24C00105840 /* BIMailToURIParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		937E157116F0F24C00105840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 937E155216F0F24C00105840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937E155916F0F24C00105840;
+			remoteInfo = BIMailToURIParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		937E155816F0F24C00105840 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				937E156316F0F24C00105840 /* BIMailToURIParser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		937E155A16F0F24C00105840 /* libBIMailToURIParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBIMailToURIParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		937E155D16F0F24C00105840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		937E156116F0F24C00105840 /* BIMailToURIParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BIMailToURIParser-Prefix.pch"; sourceTree = "<group>"; };
+		937E156216F0F24C00105840 /* BIMailToURIParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIMailToURIParser.h; sourceTree = "<group>"; };
+		937E156416F0F24C00105840 /* BIMailToURIParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIMailToURIParser.m; sourceTree = "<group>"; };
+		937E156B16F0F24C00105840 /* BIMailToURIParserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIMailToURIParserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937E156C16F0F24C00105840 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		937E156E16F0F24C00105840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		937E157616F0F24C00105840 /* BIMailToURIParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BIMailToURIParserTests-Info.plist"; sourceTree = "<group>"; };
+		937E157816F0F24C00105840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		937E157A16F0F24C00105840 /* BIMailToURIParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIMailToURIParserTests.h; sourceTree = "<group>"; };
+		937E157B16F0F24C00105840 /* BIMailToURIParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIMailToURIParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		937E155716F0F24C00105840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E155E16F0F24C00105840 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937E156716F0F24C00105840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E156D16F0F24C00105840 /* SenTestingKit.framework in Frameworks */,
+				937E156F16F0F24C00105840 /* UIKit.framework in Frameworks */,
+				937E157016F0F24C00105840 /* Foundation.framework in Frameworks */,
+				937E157316F0F24C00105840 /* libBIMailToURIParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937E155116F0F24C00105840 = {
+			isa = PBXGroup;
+			children = (
+				937E155F16F0F24C00105840 /* BIMailToURIParser */,
+				937E157416F0F24C00105840 /* BIMailToURIParserTests */,
+				937E155C16F0F24C00105840 /* Frameworks */,
+				937E155B16F0F24C00105840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		937E155B16F0F24C00105840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937E155A16F0F24C00105840 /* libBIMailToURIParser.a */,
+				937E156B16F0F24C00105840 /* BIMailToURIParserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937E155C16F0F24C00105840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937E155D16F0F24C00105840 /* Foundation.framework */,
+				937E156C16F0F24C00105840 /* SenTestingKit.framework */,
+				937E156E16F0F24C00105840 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		937E155F16F0F24C00105840 /* BIMailToURIParser */ = {
+			isa = PBXGroup;
+			children = (
+				937E156216F0F24C00105840 /* BIMailToURIParser.h */,
+				937E156416F0F24C00105840 /* BIMailToURIParser.m */,
+				937E156016F0F24C00105840 /* Supporting Files */,
+			);
+			path = BIMailToURIParser;
+			sourceTree = "<group>";
+		};
+		937E156016F0F24C00105840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				937E156116F0F24C00105840 /* BIMailToURIParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		937E157416F0F24C00105840 /* BIMailToURIParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				937E157A16F0F24C00105840 /* BIMailToURIParserTests.h */,
+				937E157B16F0F24C00105840 /* BIMailToURIParserTests.m */,
+				937E157516F0F24C00105840 /* Supporting Files */,
+			);
+			path = BIMailToURIParserTests;
+			sourceTree = "<group>";
+		};
+		937E157516F0F24C00105840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				937E157616F0F24C00105840 /* BIMailToURIParserTests-Info.plist */,
+				937E157716F0F24C00105840 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937E155916F0F24C00105840 /* BIMailToURIParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937E157F16F0F24C00105840 /* Build configuration list for PBXNativeTarget "BIMailToURIParser" */;
+			buildPhases = (
+				937E155616F0F24C00105840 /* Sources */,
+				937E155716F0F24C00105840 /* Frameworks */,
+				937E155816F0F24C00105840 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIMailToURIParser;
+			productName = BIMailToURIParser;
+			productReference = 937E155A16F0F24C00105840 /* libBIMailToURIParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		937E156A16F0F24C00105840 /* BIMailToURIParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937E158216F0F24C00105840 /* Build configuration list for PBXNativeTarget "BIMailToURIParserTests" */;
+			buildPhases = (
+				937E156616F0F24C00105840 /* Sources */,
+				937E156716F0F24C00105840 /* Frameworks */,
+				937E156816F0F24C00105840 /* Resources */,
+				937E156916F0F24C00105840 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937E157216F0F24C00105840 /* PBXTargetDependency */,
+			);
+			name = BIMailToURIParserTests;
+			productName = BIMailToURIParserTests;
+			productReference = 937E156B16F0F24C00105840 /* BIMailToURIParserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937E155216F0F24C00105840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bryan Irace";
+			};
+			buildConfigurationList = 937E155516F0F24C00105840 /* Build configuration list for PBXProject "BIMailToURIParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 937E155116F0F24C00105840;
+			productRefGroup = 937E155B16F0F24C00105840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937E155916F0F24C00105840 /* BIMailToURIParser */,
+				937E156A16F0F24C00105840 /* BIMailToURIParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937E156816F0F24C00105840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E157916F0F24C00105840 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		937E156916F0F24C00105840 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937E155616F0F24C00105840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E156516F0F24C00105840 /* BIMailToURIParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937E156616F0F24C00105840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E157C16F0F24C00105840 /* BIMailToURIParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		937E157216F0F24C00105840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937E155916F0F24C00105840 /* BIMailToURIParser */;
+			targetProxy = 937E157116F0F24C00105840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		937E157716F0F24C00105840 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937E157816F0F24C00105840 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937E157D16F0F24C00105840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		937E157E16F0F24C00105840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937E158016F0F24C00105840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BIMailToURIParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIMailToURIParser/BIMailToURIParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		937E158116F0F24C00105840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BIMailToURIParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIMailToURIParser/BIMailToURIParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		937E158316F0F24C00105840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIMailToURIParser/BIMailToURIParser-Prefix.pch";
+				INFOPLIST_FILE = "BIMailToURIParserTests/BIMailToURIParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		937E158416F0F24C00105840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIMailToURIParser/BIMailToURIParser-Prefix.pch";
+				INFOPLIST_FILE = "BIMailToURIParserTests/BIMailToURIParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		937E155516F0F24C00105840 /* Build configuration list for PBXProject "BIMailToURIParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937E157D16F0F24C00105840 /* Debug */,
+				937E157E16F0F24C00105840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937E157F16F0F24C00105840 /* Build configuration list for PBXNativeTarget "BIMailToURIParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937E158016F0F24C00105840 /* Debug */,
+				937E158116F0F24C00105840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		937E158216F0F24C00105840 /* Build configuration list for PBXNativeTarget "BIMailToURIParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937E158316F0F24C00105840 /* Debug */,
+				937E158416F0F24C00105840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937E155216F0F24C00105840 /* Project object */;
+}
