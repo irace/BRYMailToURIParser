@@ -81,7 +81,7 @@
 		937E155116F0F24C00105840 = {
 			isa = PBXGroup;
 			children = (
-				937E155F16F0F24C00105840 /* BRYMailToURIParser */,
+				937E155F16F0F24C00105840 /* Classes */,
 				937E157416F0F24C00105840 /* BRYMailToURIParserTests */,
 				937E155C16F0F24C00105840 /* Frameworks */,
 				937E155B16F0F24C00105840 /* Products */,
@@ -107,13 +107,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		937E155F16F0F24C00105840 /* BRYMailToURIParser */ = {
+		937E155F16F0F24C00105840 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				937E156216F0F24C00105840 /* BRYMailToURIParser.h */,
 				937E156416F0F24C00105840 /* BRYMailToURIParser.m */,
 			);
-			path = BRYMailToURIParser;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		937E157416F0F24C00105840 /* BRYMailToURIParserTests */ = {
@@ -123,7 +123,8 @@
 				937E157B16F0F24C00105840 /* BRYMailToURIParserTests.m */,
 				937E157516F0F24C00105840 /* Supporting Files */,
 			);
-			path = BRYMailToURIParserTests;
+			name = BRYMailToURIParserTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		937E157516F0F24C00105840 /* Supporting Files */ = {
