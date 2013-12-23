@@ -1,12 +1,14 @@
 Pod::Spec.new do |s|
-  s.name         = 'BIMailToURIParser'
-  s.version      = '0.1.0'
-  s.summary      = 'Simple Objective-C parser for mailto URIs'
+  s.name         = 'BRYMailToURIParser'
+  s.version      = '1.0.0'
+  s.summary      = 'Objective-C parser for mailto URIs'
+  s.homepage     = "http://github.com/irace/BRYMailToURIParser"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Bryan Irace' => 'bryan@irace.me' }
-  s.license      = 'MIT'
-  s.source_files = 'BIMailToURIParser'
-  s.requires_arc = true
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
+  s.source       = { :git => "https://github.com/irace/BRYSoundEffectPlayer.git", :tag => "1.0.0" }
+  s.source_files = 'Classes'
   s.frameworks   = 'Foundation'
+  s.requires_arc = true
 end
