@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "937E155916F0F24C00105840"
                BuildableName = "libBIMailToURIParser.a"
-               BlueprintName = "BIMailToURIParser"
-               ReferencedContainer = "container:BIMailToURIParser.xcodeproj">
+               BlueprintName = "BRYMailToURIParser"
+               ReferencedContainer = "container:BRYMailToURIParser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "937E156A16F0F24C00105840"
                BuildableName = "BIMailToURIParserTests.octest"
-               BlueprintName = "BIMailToURIParserTests"
-               ReferencedContainer = "container:BIMailToURIParser.xcodeproj">
+               BlueprintName = "BRYMailToURIParserTests"
+               ReferencedContainer = "container:BRYMailToURIParser.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

@@ -1,28 +1,28 @@
 //
-//  BIMailToURIParserTests.m
-//  BIMailToURIParserTests
+//  BRYMailToURIParserTests.m
+//  BRYMailToURIParserTests
 //
 //  Created by Bryan Irace on 3/13/13.
 //  Copyright (c) 2013 Bryan Irace. All rights reserved.
 //
 
-#import "BIMailToURIParserTests.h"
+#import "BRYMailToURIParserTests.h"
 
-#import "BIMailToURIParser.h"
+#import "BRYMailToURIParser.h"
 
-@interface BIMailToURIParserTests()
+@interface BRYMailToURIParserTests()
 
-@property (nonatomic, strong) BIMailToURIParser *parser;
+@property (nonatomic, strong) BRYMailToURIParser *parser;
 
 @end
 
-@implementation BIMailToURIParserTests
+@implementation BRYMailToURIParserTests
 
 - (void)setUp {
     NSString *defaultString = @"mailto:foo@bar.com,foo2@bar.com?cc=foo3@bar.com&bcc=foo4@bar.com&"
     "subject=This%20is%20the%20subject&body=This%20is%20the%20body";
     
-    self.parser = [[BIMailToURIParser alloc] initWithURL:
+    self.parser = [[BRYMailToURIParser alloc] initWithURL:
                    [NSURL URLWithString:defaultString]];
 }
 
@@ -57,33 +57,33 @@
 }
 
 - (void)testIsNotMailToURL {
-    STAssertFalse([BIMailToURIParser isMailToURL:[NSURL URLWithString:@"mailto"]],
+    STAssertFalse([BRYMailToURIParser isMailToURL:[NSURL URLWithString:@"mailto"]],
                   @"Empty `mailto` URL should not be valid");
 }
 
 - (void)testIsMailToURL {
-    STAssertTrue([BIMailToURIParser isMailToURL:[NSURL URLWithString:@"mailto:"]],
+    STAssertTrue([BRYMailToURIParser isMailToURL:[NSURL URLWithString:@"mailto:"]],
                  @"Empty `mailto:` URL should be valid");
 }
 
 - (void)testDoesntCrashWithoutString {
-    STAssertNotNil([[BIMailToURIParser alloc] initWithURL:[NSURL URLWithString:@"mailto:"]],
+    STAssertNotNil([[BRYMailToURIParser alloc] initWithURL:[NSURL URLWithString:@"mailto:"]],
                    @"Empty `mailto:` URL should not be nil");
 }
 
 - (void)testDoesntCrashWithoutQueryString {
-    STAssertNotNil([[BIMailToURIParser alloc] initWithURL:[NSURL URLWithString:@"mailto:bryan@irace.me?"]],
+    STAssertNotNil([[BRYMailToURIParser alloc] initWithURL:[NSURL URLWithString:@"mailto:bryan@irace.me?"]],
                    @"URL with empty query string should not be nil");
 }
 
 - (void)testDoesntCrashWithNilURL {
-    STAssertNotNil([[BIMailToURIParser alloc] initWithURL:nil], @"Nil URL should not crash");
+    STAssertNotNil([[BRYMailToURIParser alloc] initWithURL:nil], @"Nil URL should not crash");
 }
 
 - (void)testNilIsNotMailToLink {
     // For Chris Haseman since he loves that you can do `[[nil scheme] isEqualToString@"mailto"]` without nil checks
     
-    STAssertFalse([BIMailToURIParser isMailToURL:nil], @"Nil URL is not a `mailto` link");
+    STAssertFalse([BRYMailToURIParser isMailToURL:nil], @"Nil URL is not a `mailto` link");
 }
 
 @end

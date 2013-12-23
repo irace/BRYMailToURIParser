@@ -1,6 +1,6 @@
 //
-//  BIMailToURIParser.h
-//  BIMailToURIParser
+//  BRYMailToURIParser.h
+//  BRYMailToURIParser
 //
 //  Created by Bryan Irace on 3/13/13.
 //  Copyright (c) 2013 Bryan Irace. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BIMailToURIParser : NSObject
+@interface BRYMailToURIParser : NSObject
 
 @property (nonatomic, copy, readonly) NSArray *toRecipients;
 @property (nonatomic, copy, readonly) NSArray *ccRecipients;
