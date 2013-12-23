@@ -2,6 +2,14 @@
 
 Simple Objective-C parser for `mailto` URIs. With tests!
 
+## Installation
+
+Via [CocoaPods](http://cocoapods.org), of course:
+
+    pod install BRYMailToURIParser
+
+## Usage
+
 ```objectivec
 BIMailToURIParser *parser = [[BIMailToURIParser alloc] initWithURL:
                              [NSURL URLWithString:@"mailto:bryan@domain.me?subject=Hey"]];
