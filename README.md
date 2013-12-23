@@ -1,4 +1,4 @@
-# BIMailToURIParser
+# BRYMailToURIParser
 
 Simple Objective-C parser for `mailto` URIs. With tests!
 
